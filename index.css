@@ -1,0 +1,346 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.inner-page {
+    color: #000000;
+    background-color: #ffffff;
+    /*background-image: url("./assets/backbone.jpg");*/
+    /*background-repeat: no-repeat;*/
+}
+
+.goods {
+    display: flex;
+    list-style: none;
+    padding-top: 98px;
+    padding-bottom: 98px;
+    padding-left: 0;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.goods a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.good__item {
+    margin-top: 32px;
+    width: 292px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.good__top-decorators {
+    position: relative;
+
+}
+
+.good__jaw {
+    content: "";
+    width: auto;
+    position: absolute;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    background-color: #2bbbb3;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: 19px;
+    top: 25px;
+}
+
+.good__jaw--action {
+    background-color: #e9313a;
+}
+
+.good__jaw--gift {
+    background-color: #f5b313;
+}
+
+.good__jaw--none {
+    display: none;
+}
+
+.good__stat:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    /*background-color: green;*/
+    background-image: url("./assets/stat.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    right: 26px;
+    top: 58px;
+
+}
+
+.good__like:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    /*background-color: green;*/
+    background-image: url("./assets/heart.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    right: 27px;
+    top: 30px;
+}
+
+.good__like:hover:before{
+    background-image: url("./assets/heart-red.svg");
+}
+
+.good__stat:before {
+    position: absolute;
+}
+
+.good__extra-info {
+    position: relative;
+    /*background-color: red;*/
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.good__description-container {
+    padding-top: 21px;
+    padding-right: 30px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.good__description {
+    margin-top: 0;
+}
+
+.good__description-name {
+    margin-bottom: 0;
+}
+
+.goods a:hover {
+    color: #508e00;
+}
+
+.good__photo-container {
+    width: 151px;
+    padding-top: 39px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.good__rating-block{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.good__rating__1:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    /*background-color: green;*/
+    background-image: url("./assets/star_filled.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    left: 60px;
+    bottom: 11px;
+}
+
+.good__rating__2:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    /*background-color: green;*/
+    background-image: url("./assets/star_filled.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    left: 73px;
+    bottom: 11px;
+}
+
+.good__rating__3:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    /*background-color: green;*/
+    background-image: url("./assets/star_filled.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    left: 86px;
+    bottom: 11px;
+}
+
+
+.good__rating__4:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    /*background-color: green;*/
+    background-image: url("./assets/star_filled.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    left: 98px;
+    bottom: 11px;
+}
+
+.good__rating__5:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    /*background-color: green;*/
+    background-image: url("./assets/star_filled.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    left: 110px;
+    bottom: 11px;
+}
+
+.good__rating--no-rating:before{
+    background-image: url("./assets/star.svg");
+}
+
+.good__remains__container{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+
+.good__remains {
+    display: block;
+    color: rgb(10, 10, 10);
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: auto;
+
+    margin-top: -9px;
+    margin-bottom: 6px;
+    align-items: center;
+    position: relative;
+}
+
+.good__remains-stored:before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    /*background-color: red;*/
+    background-image: url("./assets/check.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    left: -18px;
+    bottom: 4px;
+}
+
+.good__remains-missing:before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    /*background-color: red;*/
+    background-image: url("./assets/x.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: initial;
+    left: -18px;
+    bottom: 4px;
+}
+
+.good__old-price {
+    display: block;
+    color: rgba(20, 20, 20, 0.7);
+    text-decoration: line-through;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-right: 8px;
+
+}
+
+.good__old-price--hidden{
+    color: white;
+}
+
+.good__regular-price {
+    color: rgb(11, 11, 11);
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.good__economy {
+    color: rgba(20, 20, 20, 0.7);
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.good__economy--hidden{
+    color: white;
+}
+
+.good__economy-rubles {
+    color: rgb(11, 11, 11);
+
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #ffde00;
+    margin-left: 0px;
+}
+
+.good__economy-rubles--hidden{
+    display: none;
+}
+
+.good__buy-btn {
+    display: block;
+    background-color: #72a92c;
+    color: white;
+    border-radius: 0 0 0 0;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 172px;
+    margin-bottom: 33px;
+
+}
