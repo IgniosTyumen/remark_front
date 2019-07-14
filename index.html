@@ -9,194 +9,219 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="owlCarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlCarousel2/assets/owl.theme.default.min.css">
+
 </head>
 <body class="inner-page">
+<script src="jquery/jquery-3.4.1.min.js"></script>
+<script src="owlCarousel2/owl.carousel.min.js"></script>
+<script src="index.js"></script>
 <section>
-    <ul class="goods">
+    <div class="goods">
+        <div class="owl-carousel">
+            <!--Анализатор крови-->
+            <div class="good__item item">
+                <div class="good__top-decorators">
+                    <p class="good__jaw good__jaw--action">Акция</p>
+                    <a class="good__stat" href="#"></a>
+                    <a class="good__like" href="#"></a>
+                </div>
 
-        <!--Анализатор крови-->
-        <li class="good__item">
-            <div class="good__top-decorators">
-                <p class="good__jaw good__jaw--action">Акция</p>
-                <a class="good__stat" href="#"></a>
-                <a class="good__like" href="#"></a>
-            </div>
+                <div class=" good__photo-container">
+                    <img class=" good__photo"
+                         src="./assets/blood_analiser.png"
+                         width="150" height="150"
+                         alt="Анализатор крови  EasyTouch GC на холестерин и глюкозу"
+                    />
 
-            <div class=" good__photo-container">
-                <img class=" good__photo"
-                     src="./assets/blood_analiser.png"
-                     width="150" height="150" alt="Анализатор крови  EasyTouch GC на холестерин и глюкозу"
-                />
+                </div>
+                <div class="good__description-container">
+                    <a class="good__description" href="#">
+                        <p class="good__description-name">Анализатор крови EasyTouch GC на</p>
+                        <span class="good__description-quanity"> холестерин и глюкозу</span></a>
+                </div>
 
-            </div>
-            <div class="good__description-container">
-                <a class="good__description" href="#">
-                    <p class="good__description-name">Анализатор крови EasyTouch GC на</p>
-                    <span class="good__description-quanity"> холестерин и глюкозу</span></a>
-            </div>
-
-            <div class="good__extra-info">
-                <div class="good__rating-block">
-                    <p class="good__rating__1"></p>
-                    <div class="good__rating__2">
+                <div class="good__extra-info">
+                    <div class="good__rating-block">
+                        <p class="good__rating__1"></p>
+                        <div class="good__rating__2">
+                        </div>
+                        <div class="good__rating__3 good__rating--no-rating">
+                        </div>
+                        <div class="good__rating__4 good__rating--no-rating">
+                        </div>
+                        <div class="good__rating__5 good__rating--no-rating">
+                        </div>
                     </div>
-                    <div class="good__rating__3 good__rating--no-rating">
-                    </div>
-                    <div class="good__rating__4 good__rating--no-rating">
-                    </div>
-                    <div class="good__rating__5 good__rating--no-rating">
+                    <div class="good__remains__container">
+                        <p class="good__remains good__remains-stored">В наличии</p>
                     </div>
                 </div>
-                <div class="good__remains__container">
-                    <p class="good__remains good__remains-stored">В наличии</p>
-                </div>
-            </div>
 
 
-            <p class="good__old-price">101 600 руб./шт</p>
-            <p class="good__regular-price">101 600 руб./шт</p>
-            <p class="good__economy">Экономия <span class="good__economy-rubles">4356 руб.</span></p>
-            <button type="button" class="btn good__buy-btn ">В КОРЗИНУ</button>
-        </li>
-
-
-        <!--Батончик бомба-->
-        <li class="good__item">
-            <div class="good__top-decorators">
-                <p class="good__jaw">Низкоуглеводная еда</p>
-                <a class="good__stat" href="#"></a>
-                <a class="good__like" href="#"></a>
-            </div>
-
-            <div class=" good__photo-container">
-                <img class=" good__photo"
-                     src="./assets/chockolate_bombar_slim.png"
-                     width="150" height="150" alt="Фотография батончика BOMBBAR SLIM Ананас и вишня"
-                />
-
-            </div>
-            <div class="good__description-container">
-                <a class="good__description" href="#">
-                    <p class="good__description-name">Батончик BOMBBAR SLIM Ананас и вишня</p>
-                    <span class="good__description-quanity"> (3,5 угл. в 35г)</span></a>
-            </div>
-
-            <div class="good__extra-info">
-                <div class="good__rating-block">
-                    <p class="good__rating__1"></p>
-                    <div class="good__rating__2">
-                    </div>
-                    <div class="good__rating__3">
-                    </div>
-                    <div class="good__rating__4 good__rating--no-rating">
-                    </div>
-                    <div class="good__rating__5 good__rating--no-rating">
-                    </div>
-                </div>
-                <div class="good__remains__container">
-                    <p class="good__remains good__remains-stored">Много</p>
+                <p class="good__old-price">101 600 руб./шт</p>
+                <p class="good__regular-price">101 600 руб./шт</p>
+                <p class="good__economy">Экономия <span class="good__economy-rubles">4356 руб.</span>
+                </p>
+                <div class="good__buy-btn-container">
+                    <button type="button" class="btn good__buy-btn ">В КОРЗИНУ</button>
                 </div>
             </div>
 
 
-            <p class="good__old-price">60 руб.</p>
-            <p class="good__regular-price">50 руб.</p>
-            <p class="good__economy">Экономия <span class="good__economy-rubles">4356 руб.</span></p>
-            <button type="button" class="btn good__buy-btn ">В КОРЗИНУ</button>
-        </li>
+            <!--Батончик бомба-->
 
-        <!--Катетер-->
-        <li class="good__item">
-            <div class="good__top-decorators">
-                <p class="good__jaw">Подарок</p>
-                <a class="good__stat" href="#"></a>
-                <a class="good__like" href="#"></a>
-            </div>
+            <div class="good__item item item">
+                <div class="good__top-decorators">
+                    <p class="good__jaw">Низкоуглеводная еда</p>
+                    <a class="good__stat" href="#"></a>
+                    <a class="good__like" href="#"></a>
+                </div>
 
-            <div class=" good__photo-container">
-                <img class=" good__photo"
-                     src="./assets/box.png"
-                     width="150" height="150" alt="Катетер Quick-Set /  Квик-Сет, 6/60 (MMT-399)"
-                />
+                <div class=" good__photo-container">
+                    <img class=" good__photo"
+                         src="./assets/chockolate_bombar_slim.png"
+                         width="150" height="150" alt="Фотография батончика BOMBBAR SLIM Ананас и вишня"
+                    />
 
-            </div>
-            <div class="good__description-container">
-                <a class="good__description" href="#">
-                    <p class="good__description-name">Катетер Quick-Set / Квик-Сет, 6/60 (MMT-399),</p>
-                    <span class="good__description-quanity"> 1 шт.</span></a>
-            </div>
+                </div>
+                <div class="good__description-container">
+                    <a class="good__description" href="#">
+                        <p class="good__description-name">Батончик BOMBBAR SLIM Ананас и вишня</p>
+                        <span class="good__description-quanity"> (3,5 угл. в 35г)</span></a>
+                </div>
 
-            <div class="good__extra-info">
-                <div class="good__rating-block">
-                    <p class="good__rating__1"></p>
-                    <div class="good__rating__2">
+                <div class="good__extra-info">
+                    <div class="good__rating-block">
+                        <p class="good__rating__1"></p>
+                        <div class="good__rating__2">
+                        </div>
+                        <div class="good__rating__3">
+                        </div>
+                        <div class="good__rating__4 good__rating--no-rating">
+                        </div>
+                        <div class="good__rating__5 good__rating--no-rating">
+                        </div>
                     </div>
-                    <div class="good__rating__3">
-                    </div>
-                    <div class="good__rating__4 good__rating--no-rating">
-                    </div>
-                    <div class="good__rating__5 good__rating--no-rating">
+                    <div class="good__remains__container">
+                        <p class="good__remains good__remains-stored">Много</p>
                     </div>
                 </div>
-                <div class="good__remains__container">
-                    <p class="good__remains good__remains-missing">Нет в наличии</p>
-                </div>
-            </div>
 
 
-            <p class="good__old-price">101 600 руб./шт</p>
-            <p class="good__regular-price">101 600 руб./шт</p>
-            <p class="good__economy">Экономия <span class="good__economy-rubles">4356 руб.</span></p>
-            <button type="button" class="btn good__buy-btn ">В КОРЗИНУ</button>
-        </li>
-
-        <!--Мюсли-->
-        <li class="good__item">
-            <div class="good__top-decorators">
-                <p class="good__jaw good__jaw--none"></p>
-                <a class="good__stat" href="#"></a>
-                <a class="good__like" href="#"></a>
-            </div>
-
-            <div class=" good__photo-container">
-                <img class=" good__photo"
-                     src="./assets/musles.png"
-                     width="150" height="150" alt="Мюсли Bionova ЯГОДНЫЕ запеченные хрустящие,  400г"
-                />
-
-            </div>
-            <div class="good__description-container">
-                <a class="good__description" href="#">
-                    <p class="good__description-name">Мюсли Bionova ЯГОДНЫЕ запеченные хрустящие,</p>
-                    <span class="good__description-quanity">  400г</span></a>
-            </div>
-
-            <div class="good__extra-info">
-                <div class="good__rating-block">
-                    <p class="good__rating__1"></p>
-                    <div class="good__rating__2">
-                    </div>
-                    <div class="good__rating__3">
-                    </div>
-                    <div class="good__rating__4 good__rating--no-rating">
-                    </div>
-                    <div class="good__rating__5 good__rating--no-rating">
-                    </div>
-                </div>
-                <div class="good__remains__container">
-                    <p class="good__remains good__remains-stored">Много</p>
+                <p class="good__old-price">60 руб.</p>
+                <p class="good__regular-price">50 руб.</p>
+                <p class="good__economy">Экономия <span class="good__economy-rubles">4356 руб.</span>
+                </p>
+                <div class="good__buy-btn-container">
+                    <button type="button" class="btn good__buy-btn ">В КОРЗИНУ</button>
                 </div>
             </div>
 
+            <!--Катетер-->
 
-            <p class="good__old-price good__old-price--hidden">101 600 руб./шт</p>
-            <p class="good__regular-price">101 600 руб./шт</p>
-            <p class="good__economy good__economy--hidden">Экономия <span
-                    class="good__economy-rubles good__economy-rubles--hidden">4356 руб.</span></p>
-            <button type="button" class="btn good__buy-btn ">В КОРЗИНУ</button>
-        </li>
+            <div class="good__item item item">
+                <div class="good__top-decorators">
+                    <p class="good__jaw">Подарок</p>
+                    <a class="good__stat" href="#"></a>
+                    <a class="good__like" href="#"></a>
+                </div>
 
-    </ul>
+                <div class=" good__photo-container">
+                    <img class=" good__photo"
+                         src="./assets/box.png"
+                         width="150" height="150" alt="Катетер Quick-Set /  Квик-Сет, 6/60 (MMT-399)"
+                    />
+
+                </div>
+                <div class="good__description-container">
+                    <a class="good__description" href="#">
+                        <p class="good__description-name">Катетер Quick-Set / Квик-Сет, 6/60
+                            (MMT-399),</p>
+                        <span class="good__description-quanity"> 1 шт.</span></a>
+                </div>
+
+                <div class="good__extra-info">
+                    <div class="good__rating-block">
+                        <p class="good__rating__1"></p>
+                        <div class="good__rating__2">
+                        </div>
+                        <div class="good__rating__3">
+                        </div>
+                        <div class="good__rating__4 good__rating--no-rating">
+                        </div>
+                        <div class="good__rating__5 good__rating--no-rating">
+                        </div>
+                    </div>
+                    <div class="good__remains__container">
+                        <p class="good__remains good__remains-missing">Нет в наличии</p>
+                    </div>
+                </div>
+
+
+                <p class="good__old-price">101 600 руб./шт</p>
+                <p class="good__regular-price">101 600 руб./шт</p>
+                <p class="good__economy">Экономия <span class="good__economy-rubles">4356 руб.</span>
+                </p>
+                <div class="good__buy-btn-container">
+                    <button type="button" class="btn good__buy-btn ">В КОРЗИНУ</button>
+                </div>
+            </div>
+
+            <!--Мюсли-->
+
+            <div class="good__item item item">
+                <div class="good__top-decorators">
+                    <p class="good__jaw good__jaw--none"></p>
+                    <a class="good__stat" href="#"></a>
+                    <a class="good__like" href="#"></a>
+                </div>
+
+                <div class=" good__photo-container">
+                    <img class=" good__photo"
+                         src="./assets/musles.png"
+                         width="150" height="150"
+                         alt="Мюсли Bionova ЯГОДНЫЕ запеченные хрустящие,  400г"
+                    />
+
+                </div>
+                <div class="good__description-container">
+                    <a class="good__description" href="#">
+                        <p class="good__description-name">Мюсли Bionova ЯГОДНЫЕ запеченные
+                            хрустящие,</p>
+                        <span class="good__description-quanity">  400г</span></a>
+                </div>
+
+                <div class="good__extra-info">
+                    <div class="good__rating-block">
+                        <p class="good__rating__1"></p>
+                        <div class="good__rating__2">
+                        </div>
+                        <div class="good__rating__3">
+                        </div>
+                        <div class="good__rating__4 good__rating--no-rating">
+                        </div>
+                        <div class="good__rating__5 good__rating--no-rating">
+                        </div>
+                    </div>
+                    <div class="good__remains__container">
+                        <p class="good__remains good__remains-stored">Много</p>
+                    </div>
+                </div>
+
+
+                <p class="good__old-price good__old-price--hidden">101 600 руб./шт</p>
+                <p class="good__regular-price">101 600 руб./шт</p>
+                <p class="good__economy good__economy--hidden">Экономия <span
+                        class="good__economy-rubles good__economy-rubles--hidden">4356 руб.</span></p>
+                <div class="good__buy-btn-container">
+                    <button type="button" class="btn good__buy-btn ">В КОРЗИНУ</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 </body>
 </html>

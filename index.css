@@ -1,3 +1,5 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ html, body {
     padding-top: 98px;
     padding-bottom: 98px;
     padding-left: 0;
-
+    height: 500px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -34,7 +36,8 @@ html, body {
 .good__item {
     margin-top: 32px;
     width: 292px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+    margin-bottom: 32px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .good__top-decorators {
@@ -100,7 +103,7 @@ html, body {
     top: 30px;
 }
 
-.good__like:hover:before{
+.good__like:hover:before {
     background-image: url("./assets/heart-red.svg");
 }
 
@@ -144,7 +147,7 @@ html, body {
     margin-right: auto;
 }
 
-.good__rating-block{
+.good__rating-block {
     margin-top: 20px;
     margin-left: 40px;
 }
@@ -194,7 +197,6 @@ html, body {
     bottom: 11px;
 }
 
-
 .good__rating__4:before {
     display: block;
     position: absolute;
@@ -225,15 +227,14 @@ html, body {
     bottom: 11px;
 }
 
-.good__rating--no-rating:before{
+.good__rating--no-rating:before {
     background-image: url("./assets/star.svg");
 }
 
-.good__remains__container{
+.good__remains__container {
     margin-top: 20px;
     margin-left: 45px;
 }
-
 
 .good__remains {
     display: block;
@@ -289,7 +290,7 @@ html, body {
 
 }
 
-.good__old-price--hidden{
+.good__old-price--hidden {
     color: white;
 }
 
@@ -314,7 +315,7 @@ html, body {
     text-align: center;
 }
 
-.good__economy--hidden{
+.good__economy--hidden {
     color: white;
 }
 
@@ -327,20 +328,31 @@ html, body {
     margin-left: 0px;
 }
 
-.good__economy-rubles--hidden{
+.good__economy-rubles--hidden {
     display: none;
 }
 
+.good__buy-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
 .good__buy-btn {
-    display: block;
+
     background-color: #72a92c;
     color: white;
     border-radius: 0 0 0 0;
     align-content: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
     width: 172px;
     margin-bottom: 33px;
+    vertical-align: top;
+    align-self: center;
+
+}
+
+.owl-carousel{
+margin-left: 50px;
+    padding-bottom: 50px;
 
 }
