@@ -351,6 +351,10 @@ html, body {
 
 }
 
+.good__buy-btn:hover{
+    color: white;
+}
+
 .owl-carousel{
 margin-left: 50px;
     padding-bottom: 50px;
